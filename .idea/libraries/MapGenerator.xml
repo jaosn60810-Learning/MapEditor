@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MapGenerator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/MapGenerator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
