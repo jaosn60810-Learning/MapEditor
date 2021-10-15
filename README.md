@@ -63,6 +63,14 @@
         ![](https://i.imgur.com/qaVeYHA.png)
 
       若需載入地圖，則點選上面圖示按鈕，跳出資料夾選擇視窗，選擇資料夾後，會將對應名稱的兩個檔案讀入。
+      
+      bmp 檔 : 
+      ![](https://i.imgur.com/CST3aAY.png)
+
+      txt 檔 : 
+      ![](https://i.imgur.com/ug0dsJj.png)
+
+
 
 
    7. 地圖繪圖區域縮放 
