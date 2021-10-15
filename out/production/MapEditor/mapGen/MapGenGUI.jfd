@@ -1,0 +1,242 @@
+JFDML JFormDesigner: "7.0.4.0.360" Java: "11.0.11" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :::p, par l:::p {comp panel1:::::x, comp jScrollPane1::::0:x}, space s:::p, par l {seq {comp panel2:::::x, space :p:82:p, comp panel5:::p::p, space s:::p, comp panel4:::p::p, space s:::p, comp panel3:::p::p, space :p:17:p}, seq {comp jScrollPane3::::908:x, space :::p}}}}"
+			"$verticalGroup": "par l {seq {par l {seq {par l {seq {comp panel5:::p::p, space :p:40:p}, seq t {comp panel2:::p::p, space s:::p}}, comp jScrollPane3::::536:x}, seq {par l {seq l {space :::p, comp panel1:::p::p}, comp panel4:::p::p, comp panel3:::p::p}, space :::p, comp jScrollPane1::::507:x}}, space :p:0:p}}"
+		} ) {
+			name: "this"
+			"defaultCloseOperation": 3
+			"minimumSize": new java.awt.Dimension( 14, 37 )
+			"maximizedBounds": new java.awt.Rectangle( 0, 0, 0, 0 )
+			"resizable": false
+			"$sizePolicy": 1
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :::p, comp jButton7:::p:100:p, space :::p, par l {seq l {par t:::p {seq l {comp jTextField4:::p:49:p, space :::p, comp jLabel3:::p::p, space :::p, comp jTextField5:::::x}, comp jTextField3::l:p:116:p}, space :7::x}, seq l {comp jButton8:::p:53:p, space :::x, comp jButton1:::p:52:p, space :::x}}}}"
+				"$verticalGroup": "par l {seq {space :::p, par l {seq l {comp jTextField3:::p:25:p, space :p:12:p, par b {comp jLabel3::b:p::p, comp jTextField4::b:p::p, comp jTextField5::b:p::p}, space :::p, par b {comp jButton8::b:p::p, comp jButton1::b:p::p}}, comp jButton7:::p:107:p}, space :::x}}"
+			} ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton1"
+					"text": "新增"
+					"font": new java.awt.Font( "Microsoft JhengHei UI", 0, 12 )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton1ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton7"
+					"text": "選擇素材"
+					"horizontalTextPosition": 0
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton7ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTextField3"
+					"text": "Name"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jTextField3ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton8"
+					"text": "顏色"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton8ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel3"
+					"text": "x"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTextField4"
+					"text": "1"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jTextField4ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTextField5"
+					"text": "1"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jTextField5ActionPerformed", true ) )
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "jScrollPane1"
+				"autoscrolls": true
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "jScrollPane1MouseClicked", true ) )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {space :0:319:x}"
+					"$verticalGroup": "par l {space :0:1081:x}"
+				} ) {
+					name: "jPanel3"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :::p, par l {seq l {comp jLabel4:::p::p, space :::p, comp jTextField6:::p:40:p, space :::p, comp jLabel5:::p::p, space :::p, comp jTextField1:::p:40:p, space :::p, comp jLabel1:::p::p, space :::p, comp jTextField2:::p:40:p}, comp jButton9::l:p::p}, space ::95:x}}"
+				"$verticalGroup": "par l {seq {space ::12:x, par c {comp jLabel4::c:p::p, comp jTextField2::c:p::p, comp jLabel1::c:p::p, comp jTextField1::c:p::p, comp jLabel5::c:p::p, comp jTextField6::c:p::p}, space :::p, comp jButton9:::p::p, space :::p}}"
+			} ) {
+				name: "panel2"
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTextField1"
+					"text": "30"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jTextField1ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTextField2"
+					"text": "30"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jTextField2ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton9"
+					"text": "設置"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton9ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "jTextField6"
+					"text": "32"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jTextField6ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel4"
+					"text": "單位: "
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel5"
+					"text": "格子長寬"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "jLabel1"
+					"text": "x"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space :::p, comp jButton5:::p::p, space :::p, comp jButton6:::p::p, space :::x}}"
+				"$verticalGroup": "par l {seq l {space :::p, par l {comp jButton6:::p::p, comp jButton5:::::p}, space :0:6:x}}"
+			} ) {
+				name: "panel3"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton5"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/zoom_out.png" )
+					"toolTipText": "放大"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton5ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton6"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/zoom_in.png" )
+					"toolTipText": "縮小"
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton6ActionPerformed", true ) )
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "jScrollPane3"
+				"autoscrolls": true
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "jScrollPane3MouseClicked", true ) )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+					"$horizontalGroup": "par l {space :0:991:x}"
+					"$verticalGroup": "par l {space :0:653:x}"
+				} ) {
+					name: "jPanel1"
+					addEvent( new FormEvent( "java.awt.event.MouseMotionListener", "mouseDragged", "jPanel1MouseDragged", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "jPanel1MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mousePressed", "jPanel1MousePressed", true ) )
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :::x, comp jButton4:::p::p, space :::p, comp jButton3:::p::p}}"
+				"$verticalGroup": "par l {seq {space :::p, par l {comp jButton3:::p::p, comp jButton4:::p::p}, space :::x}}"
+			} ) {
+				name: "panel4"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton4"
+					"toolTipText": "輸出檔案"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/export.png" )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton4ActionPerformed", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton3"
+					"toolTipText": "輸入檔案"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/import.png" )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton3ActionPerformed", true ) )
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq l {space ::24:x, comp jButton2:::p::p}}"
+				"$verticalGroup": "par l {seq l {space :::x, comp jButton2:::p::p}}"
+			} ) {
+				name: "panel5"
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "jButton2"
+					"toolTipText": "清除格子素材"
+					"icon": new com.jformdesigner.model.SwingIcon( 0, "/eraser.png" )
+					addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "jButton2ActionPerformed", true ) )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"size": new java.awt.Dimension( 1175, 670 )
+			"location": new java.awt.Point( 0, 2413 )
+		} )
+		add( new FormComponent( "javax.swing.JColorChooser" ) {
+			name: "jColorChooser1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 316 )
+		} )
+		add( new FormContainer( "javax.swing.JToolBar", new FormLayoutManager( class javax.swing.JToolBar ) ) {
+			name: "jToolBar1"
+			"rollover": true
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 704 )
+		} )
+		add( new FormContainer( "javax.swing.JPopupMenu", new FormLayoutManager( class javax.swing.JPopupMenu ) ) {
+			name: "jPopupMenu1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 754 )
+		} )
+		add( new FormComponent( "javax.swing.JFileChooser" ) {
+			name: "jFileChooser1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 795 )
+		} )
+		add( new FormContainer( "javax.swing.JPopupMenu", new FormLayoutManager( class javax.swing.JPopupMenu ) ) {
+			name: "jPopupMenu2"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 1137 )
+		} )
+		add( new FormComponent( "javax.swing.JFileChooser" ) {
+			name: "jFileChooser2"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 1178 )
+		} )
+		add( new FormContainer( "javax.swing.JPopupMenu", new FormLayoutManager( class javax.swing.JPopupMenu ) ) {
+			name: "jPopupMenu3"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 1520 )
+		} )
+		add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+			name: "jMenu1"
+			"text": "jMenu1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 1561 )
+		} )
+		add( new FormContainer( "javax.swing.JPopupMenu", new FormLayoutManager( class javax.swing.JPopupMenu ) ) {
+			name: "jPopupMenu4"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 1598 )
+		} )
+		add( new FormContainer( "javax.swing.JPopupMenu", new FormLayoutManager( class javax.swing.JPopupMenu ) ) {
+			name: "jPopupMenu5"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 1639 )
+		} )
+		add( new FormContainer( "java.awt.PopupMenu", null ) {
+			name: "popupMenu1"
+			"label": "popupMenu1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 1680 )
+		} )
+		add( new FormComponent( "javax.swing.JFileChooser" ) {
+			name: "jFileChooser3"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 1729 )
+		} )
+		add( new FormComponent( "javax.swing.JFileChooser" ) {
+			name: "jFileChooser4"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 2071 )
+		} )
+	}
+}
