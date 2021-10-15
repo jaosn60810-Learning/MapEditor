@@ -107,7 +107,8 @@ ArrayList<MapInfo> mapInfo = new MapLoader("genMap.bmp", "genMap.txt").combineIn
     
 ```java
 // 使用範例
-    private void mapInitialize() {//建構地圖物件的函式
+    //建構地圖物件的函式
+    private void mapInitialize() {
     
     // 讀入 bmp 和 txt 檔案
         try {
@@ -144,7 +145,7 @@ ArrayList<MapInfo> mapInfo = new MapLoader("genMap.bmp", "genMap.txt").combineIn
 MapInfo 內含 5 個屬性(素材名稱, X 座標 , Y 座標, 素材寬度 , 素材高)
 
 
-* 舉例：
+* 舉例(將格子轉換成 Class MaoInfo)：
 ![](https://i.imgur.com/kNf72vw.png)
 
 
